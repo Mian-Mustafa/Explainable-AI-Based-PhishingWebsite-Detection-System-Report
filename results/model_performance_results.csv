@@ -1,0 +1,7 @@
+Model,Accuracy,Precision_Phishing,Recall_Phishing,F1_Score_Phishing,ROC_AUC
+XGBoost,0.96632,0.96187,0.97113,0.96648,0.99443
+Extra Trees,0.96457,0.96416,0.965,0.96458,0.99298
+Random Forest,0.96194,0.95833,0.96588,0.96209,0.99355
+Gradient Boosting,0.95319,0.94965,0.95713,0.95338,0.99049
+Logistic Regression,0.93613,0.93921,0.93263,0.93591,0.98142
+Decision Tree,0.93395,0.92907,0.93963,0.93432,0.93395

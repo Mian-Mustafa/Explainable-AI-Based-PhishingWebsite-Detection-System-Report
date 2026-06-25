@@ -1,0 +1,41 @@
+
+Research Topic:
+Explainable AI-Based Phishing Website Detection System for Non-Technical Users
+
+Dataset:
+dataset_B_05_2020.csv
+
+Dataset Shape:
+(11430, 89)
+
+Final Feature Shape:
+(11430, 87)
+
+Target Meaning:
+0 = Legitimate Website
+1 = Phishing Website
+
+Best Model:
+XGBoost
+
+Best Model Results:
+{'Model': 'XGBoost', 'Accuracy': 0.96632, 'Precision_Phishing': 0.96187, 'Recall_Phishing': 0.97113, 'F1_Score_Phishing': 0.96648, 'ROC_AUC': 0.99443}
+
+Output Folder:
+/content/drive/MyDrive/HCI_Project/Web_Phishing_Outputs
+
+Generated Files:
+1. dataset_summary.csv
+2. feature_list.csv
+3. model_performance_results.csv
+4. cross_validation_results.csv
+5. accuracy_comparison.png
+6. f1_score_comparison.png
+7. roc_auc_comparison.png
+8. confusion_matrix_best_model.png
+9. roc_curve_best_model.png
+10. precision_recall_curve_best_model.png
+11. feature_importance_results.csv
+12. top_20_feature_importance.png
+13. shap_summary_plot.png
+14. best_phishing_detection_model.pkl

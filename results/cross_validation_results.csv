@@ -1,0 +1,4 @@
+Model,Mean_CV_F1,Std_CV_F1
+XGBoost,0.96906,0.00202
+Extra Trees,0.96341,0.00455
+Random Forest,0.96705,0.00461
